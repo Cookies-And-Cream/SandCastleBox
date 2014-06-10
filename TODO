@@ -1,0 +1,22 @@
+The TODO Grocery List!!
+
+     ~SSH~
+-> Seperate traffic from IP addresses, dedicate one for SSH/remote access and the other for Nginx, etc.
+-> Set SSH to listen on a non-standard port.
+-> Disable root login via SSH.
+-> Configure SSH for 3-factor auth and/or implement certificates.
+-> Configure SSH to use strict cipher security settings. 
+
+
+     ~Nginx~
+-> As mentioned above, configure sites to only listen on one allotted IP address.
+-> Set up all sites with a secure TLS certificate.
+-> Configure Nginx to only use encrypted traffic, and have port 80 forward to a secure site.
+-> Implement SPDY.
+-> Optimize OpenSSL/Nginx security settings by implementing rotating hashes, etc.
+
+
+     ~Node~
+-> Install node.js
+-> ???
+-> profit!!!
