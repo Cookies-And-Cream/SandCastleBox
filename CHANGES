@@ -1,3 +1,8 @@
+June 9, 2014-
+Began securing SSH access. Created new users, restricted access to those users 
+and set SSH to listen to port 110 for connections. Disabled root login and 
+correctly added the new users to the sudoers group. 
+
 June 8, 2014-
 Initial Github page creation. Debian has been previously installed on the VPS
 with the latest version of Nginx and OpenSSL, now it's time to learn Github
